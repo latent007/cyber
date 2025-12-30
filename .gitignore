@@ -1,0 +1,63 @@
+# Python Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode settings
+.vscode/
+
+# Mypy and other static analysis
+.mypy_cache/
+.dmypy.json
+
+# Unit test / coverage reports
+.coverage
+*.coveragerc
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# pyenv
+.python-version
+
+# Pylint
+pylint-report.txt
+pylint-globalrc
+
+# C: Compiled source
+*.o
+*.ko
+*.obj
+*.elf
+*.out
+*.a
+*.so
+
+# C: Build directory
+/build/
+bin/
+
+# C: Executables
+*.exe
+*.out
+
+# C: IDE files
+.vscode/
+.idea/
+
+# C: Mac-specific
+.DS_Store
+
+# Temporary files
+*.tmp
